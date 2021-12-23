@@ -1,0 +1,209 @@
+
+body{
+    width: 100%;
+    text-align:center;
+    margin:0;
+    background-color: #f3f2ef;
+}
+/*_______________________________HEADER____________________________*/
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+#nav-bar{
+    width: 1128px;
+    display: flex;
+    justify-content: center;
+}
+#nav-barIconUl, #nav-barSearchUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.logo{
+    color: rgb(37, 104, 204);
+    height: 2.1em;
+    width: 2.1em;
+}
+#nav-barSearchUl{
+    margin-left: 30px;
+}
+#barreLoupe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon-loupe{
+    color: rgb(99, 99, 99);
+    margin: 4px 0px 0px -20px;
+    padding: 0;   
+}
+.recherche{
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0px;
+}
+.recherche:hover{
+    outline: none;
+}
+.recherche:active{
+    outline: none;
+}
+#nav-menuUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 200px;
+}
+.nav-barLi a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    min-height: 55px;
+    min-width: 80px;
+}
+.nav-barLi a:hover{
+    color: black;
+}
+.nav-barLi a:active{
+    color: black;
+    border-bottom: 2px solid black;
+    margin-bottom: -5px;
+}
+#button-vous, #button-produits{
+    list-style-type: none;
+    margin-bottom: -7px;
+}
+.boutons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: none;
+    color: rgb(99, 99, 99);
+}
+.boutons:hover{
+    color: black;
+}
+.vous-fleche{
+    display: flex;
+    justify-content: center;
+}
+.fleche{
+    width: 30px;
+    height: 30px;
+    margin-left: -3px;
+    margin-top: -6px;
+}
+.carre{
+    font-size: 24px;
+}
+#nav-premium li{
+    text-align: center;
+    list-style-type: none;
+}
+.texte-menu{
+    font-size: 0.8em;
+}
+.premium{
+    display: block;
+    width: 8em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: rgb(146, 126, 13);
+}
+
+/*_______________________________FIN HEADER____________________________*/
+
+/*________________________________SECTION________________________________*/
+
+.conteneur{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(2,minmax(374px, 1fr));
+    text-align: center;
+    margin: 0px 24em;
+}
+
+.aside-g, .aside-g2, .article-c, .article-c2, .aside-d, .aside-d2{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 1px 1px rgb(255, 221, 148);
+}
+
+.aside-g{
+    grid-column: 1 / 2;
+    margin: 10px 10px 5px;
+}
+
+.asideg-header{
+    border-radius: 20px;
+    width: 100%;
+}
+
+#person-default{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+#camera-small{
+    position: absolute;
+    top: 140px;
+    background-color: white;
+}
+
+.aside-g2{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    margin: 5px 10px 5px;
+}
+
+.article-c{
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    margin: 10px 10px 5px;
+}
+
+.art-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-c nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.article-c nav a{
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+.article-c2{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    margin: 5px 10px 5px;
+}
+
+.aside-d{
+    grid-column: 3 / 4;
+    margin: 10px 10px 5px;
+}
+.aside-d2{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    margin: 5px 10px 5px;
+}
+
+/*_______________________________FIN SECTION_____________________________*/
+
+

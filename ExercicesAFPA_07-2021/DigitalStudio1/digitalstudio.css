@@ -1,0 +1,472 @@
+@font-face{font-family: 'Poppins-Light'; src: url('polices/Poppins-Light.ttf');}
+@font-face{font-family: 'Poppins-Regular'; src: url('polices/Poppins-Regular.ttf');}
+@font-face{font-family: 'Poppins-Medium'; src: url('polices/Poppins-Medium.ttf');}
+
+body{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/plageb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 530px;
+}
+
+.reseau-sociaux{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.fa{
+    padding: 10px;
+    font-size: 30px;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 50%;
+}
+.reseau-sociaux li a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: 1px solid white;
+}
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: -3.5px;
+    border-radius: 6px;
+}
+
+#logoFlex{
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    font-family: "Poppins-Regular", Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(189, 1, 1);
+    margin-left: -70px;
+}
+
+nav{
+    display: flex;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin:0;
+    width: 7em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: "Poppins-Light", Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: black;
+    transition: 0.5s;
+    letter-spacing: 1px;
+}
+
+nav ul li:hover a{
+    color: white;
+    border-top: 1px solid rgb(189, 1, 1);
+    border-bottom: 1px solid rgb(189, 1, 1);
+    background-color: rgba(189, 1, 1, 0.466);
+    box-shadow: 0px 0px 10px 1px rgb(189, 1, 1);
+    padding: 27px 5px 27px 5px;
+    letter-spacing: 3px;
+}
+
+.header-section{
+    margin-top: 140px;
+}
+
+h1{
+    font-family: "Poppins-Light", Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+    margin-bottom: 0px;
+}
+
+.p-headSect{
+    font-family: "Poppins-Light", Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+}
+
+.a-headSect{
+    font-family: "Poppins-Light", Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(189, 1, 1);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.a-headSect:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: 1px solid white;
+}
+
+#section-1{
+    margin-top: 30px;
+}
+
+.bloc-points{
+    display: flex;
+    justify-content: center;
+}
+
+.point, .point2{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.point2{
+    background-color: rgb(124, 123, 123);
+}
+
+h2{
+    font-family: "Poppins-Bold", Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.p-section{
+    font-family: "Poppins-Light", Helvetica, sans-serif;
+    text-align: center;
+}
+
+#section-2{
+    margin-top: 30px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block1, .block2, .block3, .block4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.block1{
+    background-color: green;
+}
+.block2{
+    background-color: orange;
+}
+.block3{
+    background-color: blue;
+}
+.block4{
+    background-color: rgb(108, 1, 150);
+}
+
+.block1:hover{
+    background-color: rgba(0, 128, 0, 0.7);
+}
+.block2:hover{
+    background-color: rgba(255, 166, 0, 0.7);
+}
+.block3:hover{
+    background-color: rgba(56, 56, 153, 0.7);
+}
+.block4:hover{
+    background-color: rgba(108, 1, 150, 0.7);
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1160px)
+{
+    .fa{
+        width: 20px;
+        height: 15px;
+    }
+    nav{
+        width: 80%;
+    }
+    nav ul li{
+        width: 6em;
+    }
+    nav ul li a{
+        font-size: 0.8em;
+        letter-spacing: 0.1px;
+    }
+    nav ul li:hover a{
+        font-size: 0.8em;
+        letter-spacing: 0.7px;
+        padding: 14px 5px 10px 5px;
+    }
+    .flex{
+        font-size: 1em;
+        margin-left: -70px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin-left: -30px;
+    }
+    .block1, .block2, .block3, .block4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    .reseau-sociaux{
+        margin-right: 40px;
+    }
+    .icon{
+        width: 30px;
+        height:30px;
+    }
+    .icon2{
+        width: 30px;
+        height:30px;
+    }
+    .icon3{
+        width: 30px;
+        height:30px;
+    }
+    .icon4{
+        width: 30px;
+        height:30px;
+    }
+}
+
+@media screen and (max-device-width: 800px)
+{
+    .fa{
+        width: 20px;
+        height: 15px;
+    }
+    nav{
+        width: 80%;
+    }
+    nav ul li{
+        width: 3.8em;
+    }
+    nav ul li a{
+        font-size: 0.65em;
+        letter-spacing: 0.1px;
+    }
+    nav ul li:hover a{
+        font-size: 0.65em;
+        letter-spacing: 0.7px;
+        padding: 14px 5px 10px 5px;
+    }
+    .flex{
+        font-size: 0.9em;
+        margin-left: -20px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .block1, .block2, .block3, .block4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    .reseau-sociaux{
+        margin-right: 40px;
+    }
+    .icon{
+        width: 30px;
+        height:30px;
+    }
+    .icon2{
+        width: 30px;
+        height:30px;
+    }
+    .icon3{
+        width: 30px;
+        height:30px;
+    }
+    .icon4{
+        width: 30px;
+        height:30px;
+    }
+}
+
+@media screen and (min-device-width: 381px) and (max-device-width: 500px)
+{
+    .fa{
+        width: 20px;
+        height: 15px;
+    }
+    nav{
+        width: 90%;
+    }
+    nav ul li{
+        width: 3.8em;
+    }
+    nav ul li a{
+        font-size: 0.6em;
+        letter-spacing: 0.1px;
+    }
+    nav ul li:hover a{
+        font-size: 0.6em;
+        letter-spacing: 0.7px;
+        padding: 14px 5px 10px 5px;
+    }
+    .flex{
+        font-size: 0.9em;
+        margin-left: -20px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .block1, .block2, .block3, .block4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+    .reseau-sociaux{
+        margin-right: 40px;
+    }
+    .icon{
+        width: 30px;
+        height:30px;
+    }
+    .icon2{
+        width: 30px;
+        height:30px;
+    }
+    .icon3{
+        width: 30px;
+        height:30px;
+    }
+    .icon4{
+        width: 30px;
+        height:30px;
+    }
+}
+
+
+
+@media screen and (min-device-width: 350px) and (max-device-width: 440px)
+{
+    .fa{
+        width: 20px;
+        height: 15px;
+    }
+    nav{
+        width: 95%;
+    }
+    nav ul li{
+        width: 3.3em;
+    }
+    nav ul li a{
+        font-size: 0.6em;
+        letter-spacing: 0.1px;
+    }
+    nav ul li:hover a{
+        font-size: 0.6em;
+        letter-spacing: 0.8px;
+        padding: 14px 0px 10px 0px;
+    }
+    .flex{
+        font-size: 0.9em;
+        margin-left: -25px;
+    }
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin-left: -10px;
+    }
+    .block1, .block2, .block3, .block4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .reseau-sociaux{
+        margin-right: 40px;
+    }
+    .icon{
+        width: 30px;
+        height:30px;
+    }
+    .icon2{
+        width: 30px;
+        height:30px;
+    }
+    .icon3{
+        width: 30px;
+        height:30px;
+    }
+    .icon4{
+        width: 30px;
+        height:30px;
+    }
+}

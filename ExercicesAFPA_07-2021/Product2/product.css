@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('polices/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('polices/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('polices/Poppins-Medium.ttf');
+}
+
+body {
+    font-family: 'Poppins-Light', Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+/*_____________________________________________________________________HEADER_________________________________________________________________________*/
+
+header {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url("images/etoile2.png");
+    background-size: cover;
+}
+
+.iconCercle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle {
+    border: 9px solid white;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 0.9em;
+    color: white;
+    margin-top: 30px;
+}
+
+.learnMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 228, 228);
+    width: 140px;
+    height: 35px;
+    margin: 30px auto auto auto;
+    border-radius: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.img-portable {
+    width: 500px;
+    margin-top: -10px;
+}
+
+/*_____________________________________________________________________FIN HEADER_________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________________________SECTION 1_________________________________________________________________________*/
+section {
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 200px;
+}
+
+h3 {
+    font-size: 0.9em;
+}
+
+.p-section {
+    font-size: 0.8em;
+    color: rgb(159, 168, 70);
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-reunion {
+    width: 250px;
+    height: 125px;
+    margin-right: 10px;
+}
+
+.img-evolution {
+    width: 250px;
+    height: 125px;
+}
+
+.p-imgReunion {
+    font-size: 0.8em;
+    color: rgb(159, 168, 70);
+    margin-top: -3px;
+}
+
+.p-imgEvolution {
+    font-size: 0.8em;
+    color: rgb(159, 168, 70);
+    margin-top: -3px;
+}
+
+.a-readmore {
+    color: rgb(1, 228, 228);
+}
+
+hr {
+    width: 30%;
+}
+
+/*_____________________________________________________________________/FIN SECTION 1_________________________________________________________________________*/
+
+
+
+
+/*_____________________________________________________________________SECTION 2_________________________________________________________________________*/
+.icone-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 50px;
+}
+
+.img-outlook, .img-gmail, .img-lotus {
+    width: 50px;
+    height: 50px;
+}
+
+.elem-gmail, .elem-outlook, .elem-lotus {
+    text-align: center;
+    margin-right: 8px;
+}
+
+/*_____________________________________________________________________FIN SECTION 2_________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________________________/FOOTER_________________________________________________________________________*/
+footer {
+    background-color: rgb(192, 192, 192);
+    padding: 30px 0px 50px;
+}
+
+.cercle2 {
+    border: 9px solid rgb(126, 126, 126);
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+}
+
+.p-footer {
+    color: black;
+    text-align: center;
+}
+
+.a-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.a-readmorefoot {
+    margin-right: 10px;
+    color: rgb(1, 228, 228)
+}
+
+/*_____________________________________________________________________/FIN FOOTER_________________________________________________________________________*/
+
+
+
+
+
+/*_____________________________________________________________________MEDIA QUERIES_________________________________________________________________________*/
+@media all and (max-device-width: 480px) {
+    main {
+        width: 100%;
+    }
+
+    section {
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    h2 {
+        margin-top: 100px;
+    }
+
+    .img-portable {
+        width: 250px;
+    }
+
+    .elem-reunion {
+        margin-right: 10px;
+    }
+
+    .img-reunion {
+        width: 160px;
+        height: 90px;
+    }
+
+    .img-evolution {
+        width: 160px;
+        height: 90px;
+    }
+
+    h3 {
+        font-size: 0.7em;
+    }
+
+    .p-imgReunion, .p-imgEvolution {
+        font-size: 0.6;
+    }
+
+    .icone-container {
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*_____________________________________________________________________FIN MEDIA QUERIES_________________________________________________________________________*/

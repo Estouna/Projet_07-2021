@@ -1,0 +1,129 @@
+body{
+    height: 100vh;
+}
+
+.tete-lapin{
+    position: absolute;
+    z-index: 2;
+    border: 2px solid brown;
+    background-color: brown;
+    width: 360px;
+    height: 230px;
+    top: 350px;
+    left: 762px;
+    border-radius: 40px;
+    box-shadow: 1px 7px 5px 2px rgb(179, 177, 177);
+}
+
+.oeilLeft-lapin{
+    position: absolute;
+    z-index: 3;
+    border: 2px solid black;
+    background-color: white;
+    width: 50px;
+    height: 70px;
+    top: 400px;
+    left: 825px;
+    border-radius: 50px 50px 0px 0px;
+}
+.oeilRight-lapin{
+    position: absolute;
+    z-index: 3;
+    border: 2px solid black;
+    background-color: white;
+    width: 50px;
+    height: 70px;
+    top: 400px;
+    left: 1010px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.pupilleLeft-lapin{
+    position: absolute;
+    z-index: 4;
+    background-color: black;
+    width: 40px;
+    height: 45px;
+    top: 427px;
+    left: 832px;
+    border-radius: 50px 50px 0px 0px;
+}
+.pupilleRight-lapin{
+    position: absolute;
+    z-index: 4;
+    background-color:black;
+    width: 40px;
+    height: 45px;
+    top: 427px;
+    left: 1017px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.refletLeft-pupi{
+    position: absolute;
+    z-index: 5;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    top: 432px;
+    left: 850px;
+    border-radius: 50px;
+}
+.refletRight-pupi{
+    position: absolute;
+    z-index: 5;
+    background-color:white;
+    width: 15px;
+    height: 15px;
+    top: 432px;
+    left: 1035px;
+    border-radius: 50px;  
+}
+
+.nez{
+    position: absolute;
+    z-index: 4;
+    height: 0;
+    width: 0;
+    border-right: 25px solid transparent;
+    border-top: 35px solid black;
+    border-left: 25px solid transparent;
+    top: 480px;
+    left: 921px;
+}
+
+.gueule{
+    position: absolute;
+    z-index: 4;
+    width: 140px;
+    height: 30px;
+    background-color: rgb(3, 3, 3);
+    top: 515px;
+    left: 877px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.oreilleLeft{
+    position: absolute;
+    z-index: 1;
+    width: 65px;
+    height: 120px;
+    background-color: rgb(216, 159, 159);
+    top: 230px;
+    left: 740px;
+    border: solid brown;
+    border-width: 15px 5px 15px 5px;
+    border-radius: 100px/190px;
+}
+.oreilleRight{
+    position: absolute;
+    z-index: 1;
+    width: 65px;
+    height: 120px;
+    background-color: rgb(216, 159, 159);
+    top: 230px;
+    left: 1070px;
+    border: solid brown;
+    border-width: 15px 5px 15px 5px;
+    border-radius: 100px/190px;
+}
